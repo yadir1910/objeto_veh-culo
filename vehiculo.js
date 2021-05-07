@@ -1,5 +1,5 @@
 console.log('***** objeto vehiculo ******');
-console.log('**********************************************');
+
 
 const vehiculo =  {
     marca: 'ferrari',
@@ -41,9 +41,9 @@ const vehiculo =  {
               }else if(this.cantidad_combustible == 0){
                 console.log('vehiculo sin gasolina');
               }else{
-                console.log('SE VA RECORRER: '+ kilometros_recorrido + 'KM \n'+
-                'capacidad con tanque lleno ' + this.cantidad_combustible + 'kM \n'+
-                'aun le faltan'+ combustible_consumido + 'KM por recorrer');
+                console.log('SE VA RECORRER: '+ kilometros_recorrido + '\n KM \n'+
+                'capacidad con tanque lleno ' + this.cantidad_combustible + '\n kM \n'+
+                'aun le faltan'+ combustible_consumido + '\n KM por recorrer');
                
               }
 
